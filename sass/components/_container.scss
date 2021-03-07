@@ -1,0 +1,28 @@
+.container {
+  width: 1120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+
+  .bgi-color & {
+    position: relative;
+  }
+
+  .header & {
+    @include flexCenter($jc: space-between);
+  }
+
+  .content & {
+    @include flexCenter($jc: space-between);
+  }
+  .invest & {
+    @include flexCenter($jc: space-between);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .help & {
+    @include flexCenter($jc: space-between);
+  }
+}

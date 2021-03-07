@@ -1,0 +1,61 @@
+.button {
+  font-family: $ff-button;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.667;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid $color-accent;
+
+  &--transparent {
+    background-color: transparent;
+    color: $color-accent;
+
+    border-radius: 4px;
+  }
+
+  &--accent {
+    color: $color-light-main;
+    background-color: $color-accent;
+    border-radius: 3px;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  }
+
+  .authorization & {
+    width: 112px;
+    height: 36px;
+  }
+  .details & {
+    width: 157px;
+    height: 46px;
+  }
+  .content & {
+    width: 155px;
+    height: 48px;
+  }
+
+  .CTA & {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 164px;
+    height: 54px;
+  }
+
+  .invest & {
+    width: 155px;
+    height: 54px;
+  }
+  .feedback & {
+    display: inline;
+    width: 128px;
+    height: 56px;
+    color: $color-light-main;
+    background-color: $color-accent;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+
+    position: relative;
+    top: -1px;
+  }
+}

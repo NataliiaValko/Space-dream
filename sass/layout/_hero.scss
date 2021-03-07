@@ -1,0 +1,48 @@
+.hero {
+  //padding-bottom: 103px;
+  margin-bottom: -163px;
+
+  &__bgi {
+    width: 1440px;
+    height: auto;
+    padding-top: 56px;
+    padding-bottom: 60px;
+
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../../images/bgi/man.svg);
+
+    background-position: top 0 right 0;
+
+    background-repeat: no-repeat;
+  }
+
+  &__thumb {
+    width: 531px;
+  }
+  &__title {
+    margin-bottom: 19px;
+
+    font-family: $ff-title;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.136;
+    color: $color-title-main;
+  }
+  &__text {
+    margin-bottom: 62px;
+    font-family: $ff-main;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.222;
+    color: $color-text-main;
+  }
+}
+
+.details {
+  @include flexCenter($jc: start);
+  margin: -10px -10px 50px -10px;
+  &__item {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: $color-background;
+  background-image: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.color-accent {
+  color: $color-accent;
+}
