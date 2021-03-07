@@ -22,7 +22,7 @@
 .bgi-left {
   background-image: url(../images/bgi/meteorite-2.svg);
 
-  width: 1600px;
+  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
   background-position: left bottom 100px;
@@ -30,7 +30,7 @@
 }
 
 .bgi-right {
-  width: 1800px;
+  max-width: 1800px;
   margin-right: auto;
   margin-left: auto;
   height: 477px;
@@ -40,7 +40,7 @@
 }
 
 .bgi-help {
-  width: 2200px;
+  max-width: 2200px;
   margin-right: auto;
   margin-left: auto;
 
@@ -52,7 +52,7 @@
 .bgi-footer {
   padding-top: 46px;
   padding-right: 205px;
-  width: 2041px;
+  max-width: 2041px;
   margin-right: auto;
   margin-left: auto;
   background-image: url(../images/bgi/meteorite-7.svg);
