@@ -402,14 +402,14 @@ h6 {
 
 .feedback {
   padding-top: 200px;
-  padding-bottom: 139px;
+  padding-bottom: 39px;
 }
 
 .feedback__bgi {
   max-width: 2030px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 150px;
   background-image: url(../images/bgi/meteorite-6.svg);
   background-position: center;
 }
